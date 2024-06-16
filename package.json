@@ -1,4 +1,8 @@
 {
+  "name": "babel-project",
+  "version": "1.0.0",
+  "description": "\"babel project\"",
+  "main": "index.js",
   "devDependencies": {
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
@@ -9,5 +13,18 @@
   },
   "scripts": {
     "build": "babel src -d dist"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizabethKorn/babel.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Liza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizabethKorn/babel/issues"
+  },
+  "homepage": "https://github.com/ElizabethKorn/babel#readme"
 }
